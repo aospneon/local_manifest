@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="neonmicky"
+                fetch="https://github.com/neonmicky" />
+        <remote name="aospneon"
+                fetch="https://github.com/aospneon" />
+
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />   
+        <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="aospneon" revision="lineage-19.1" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="aospneon" revision="lineage-19.1" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi" remote="neonmicky" revision="12.0-tissot" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi" remote="neonmicky" revision="12.0-common" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="neonmicky" revision="twelve" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="msm8996-Hals" remote="aospneon" revision="display" />
+        <project path="hardware/qcom-caf/msm8996/media" name="msm8996-Hals" remote="aospneon" revision="media" />
+</manifest>
