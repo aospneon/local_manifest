@@ -17,6 +17,6 @@
         <project path="hardware/qcom/display" name="msm8996-Hals" remote="neon" revision="display" />
         <project path="hardware/qcom/media" name="msm8996-Hals" remote="neon" revision="media" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="msm8996-Hals" revision="audio" remote="neon" />
-        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-19.1-legacy-um" remote="lineage" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" revision="shinka" remote="neonmicky" />
         <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" revision="10" remote="neonmicky" />
 </manifest>
